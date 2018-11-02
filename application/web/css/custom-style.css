@@ -1,0 +1,140 @@
+*,label,input{
+    font-size: 12px;
+}
+label,input,th,td{
+    color:#000
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+.form-group input[type="email"], 
+.form-group input[type="url"], 
+.form-group input[type="search"], 
+.form-group input[type="tel"], 
+.form-group input[type="color"], 
+.form-group input[type="text"], 
+.form-group input[type="password"], 
+.form-group input[type="datetime"], 
+.form-group input[type="datetime-local"], 
+.form-group input[type="date"], 
+.form-group input[type="month"], 
+.form-group input[type="time"], 
+.form-group input[type="week"], 
+.form-group input[type="number"], 
+.form-group select, 
+.form-group 
+textarea {
+    font-size: 12px;
+}
+.btn-group-sm > .btn, .btn-sm {
+    border-width: 2px;
+    font-size: 11px;
+    line-height: 1.38;
+    padding: 4px 4px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 5px;
+    vertical-align: top;
+}
+.pagination{
+    margin: 0px
+}
+/*======= PHUONG =======*/
+.label-require:after{
+    content: "(*)";
+    color: red ;
+}
+label.error{
+    color: red;
+}
+.loader{
+    background: #F9FAF6 url('../../images/loading.gif') no-repeat center;
+    display: none;
+    position: fixed; 
+    left: 0;
+    top: 0; 
+    width: 100%; 
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999999;
+}
+.table tr:nth-child(even){
+    background-color:#f1f1f1;
+}
+
+.form-control:focus{
+    color: #000000 !important;
+    background: #f6f6f6 !important;
+    border-color: #000 !important;
+}
+.form-group{
+    
+}
+.help-block{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 11px !important;
+}
+div.required label:after{
+    content: " *";
+    color: red;
+}
+.alert {
+    padding: 10px !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+/*======= END PHUONG =======*/
+
+#overlay {
+    display: none;
+    position: absolute;
+    background: #fff;
+}
+
+#img-load {
+    position: absolute;
+
+}
+
+.twitter-typeahead {
+    width: 100% !important
+}
+
+.tt-suggestion {
+    font-size: 12px !important
+}
+
+.nganchan td, .nganchan td a {
+    color: red !important
+}
+
+.highlight {
+    background-color: yellow
+}
+
+.exported-excel td{
+    color:#bbb !important;
+    font-style: italic;
+}
+.exported-excel td a{
+    color:#bbb !important;
+    font-style: italic;
+}
+.exported-excel td font{
+    color:#bbb !important;
+    font-style: italic;
+}
+.box-img{
+    border: #c3c3c3 1px solid;
+    border-radius: 10px;
+}
+.btn-quick-add{
+    padding: 6.5px;
+}
